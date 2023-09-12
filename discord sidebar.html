@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,700&family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .images {
+        background-color: rgb(39, 38, 38);
+
+        position: fixed;
+        width: 97px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+        padding-top: 30px;
+      }
+
+      .i1 {
+        width: 60px;
+        height: 60px;
+        border-radius: 1000px;
+      }
+
+      .main {
+        position: fixed;
+        width: 220px;
+        top: 0;
+        bottom: 0;
+        left: 97px;
+        font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(72, 71, 71);
+        color: white;
+        padding-top: 30px;
+      }
+
+      .info-header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .info {
+        margin-left: 13px;
+        margin-top: 9px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .plus {
+        margin-top: 5px;
+        margin-right: 13px;
+        font-size: 19px;
+        font-weight: bold;
+        color: gray;
+      }
+
+      .hashtags {
+        display: flex;
+        flex-direction: column;
+        padding-left: 12px;
+        margin-top: 13px;
+        gap: 10px;
+        color: gray;
+      }
+
+      .new-videos,
+      .updates,
+      .faq {
+        padding-left: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="images">
+      <div class="profile">
+        <img src="./Images/cat.jpg" alt="" class="i1" />
+      </div>
+      <div class="profile">
+        <img src="./Images/image1.jpg" alt="" class="i1" />
+      </div>
+      <div class="profile">
+        <img src="./Images/image2.jpg" alt="" class="i1" />
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="info-header">
+        <div class="info">INFO</div>
+        <div class="plus">+</div>
+      </div>
+      <div class="hashtags">
+        <div class="new-videos">#new-videos</div>
+        <div class="updates">#updates</div>
+
+        <div class="faq">#faq</div>
+      </div>
+    </div>
+  </body>
+</html>
